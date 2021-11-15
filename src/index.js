@@ -11,6 +11,13 @@ mainText.className = 'main-text'
 mainText.innerHTML = '<h2>I love JavaScript</h2>'
 textInContainer.append(mainText)
 
+const homeWork = document.createElement('div')
+homeWork.className = 'home-work'
+homeWork.textContent = 'Домашняя работа по Rollup'
+
+textInContainer.append(homeWork)
+
+
 const jsImageHTML = document.createElement('img')
 jsImageHTML.className = 'js-image'
 jsImageHTML.src = JS_IMAGE

@@ -1,0 +1,26 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "keywords": [
+    "webpack",
+    "rollup"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-styles": "^3.14.1"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "rollup-plugin-img": "^1.1.0"
+  }
+}
